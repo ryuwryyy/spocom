@@ -35,7 +35,7 @@
 }
 .good_play{
     h2 {
-        font-family: 'HiraginoMaruGo';
+        font-family: $main-font;
         color: $orange;
         border-style: solid; border-color:$orange;
         border-width: 2px;
@@ -48,11 +48,11 @@
 // レスポンシブfont-size
 html{
     font-size: 62.5%;
-    font-family: 'HiraginoMaruGo';
+    font-family: $main-font;
 }
 body{
     font-size:1.6rem;/* 16px*/
-    font-family: 'HiraginoMaruGo';
+    font-family: $main-font;
     line-height: 2;
 }
 h1 {
@@ -88,22 +88,22 @@ h2 {
 .spocom_top{
     h1{
         color:$light-gray;
-        font-family: 'HiraginoMaruGo';
+        font-family: $main-font;
     }
     h2{
         background-color: #01b3cf;
-        font-family: 'HiraginoMaruGo';
+        font-family: $main-font;
         line-height: 150%;
     }
     .spocom_feature{
         background-color: $light-gray;
-        font-family: 'HiraginoMaruGo';
+        font-family: $main-font;
         color: white;
         p{
             font-size:1.2rem;
         }
         h3{
-            font-family: 'HiraginoMaruGo';
+            font-family: $main-font;
         }
     }
 }
